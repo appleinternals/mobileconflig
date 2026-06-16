@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>iCloud Safety Test</string>
+    <key>PayloadDescription</key>
+    <string>iCloud safety Test.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.apple.icloud.safety.test</string>
+    <key>PayloadOrganization</key>
+    <string>Apple Inc.</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>C1D2E3F4-A5B6-7C8D-9E0F-1A2B3C4D5E6F</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.icloud.safety.restrictions</string>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadUUID</key>
+            <string>D2E3F4A5-B6C7-8D9E-0F1A-2B3C4D5E6F7A</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            
+            <key>allowAccountModification</key>
+            <false/>
+            <key>allowCloudPrivateRelay</key>
+            <true/>
+            <key>allowIdentifierForAdvertising</key>
+            <false/>
+            <key>allowMailPrivacyProtection</key>
+            <true/>
+            <key>allowDiagnosticSubmission</key>
+            <false/>
+            <key>allowDiagnosticSubmissionModification</key>
+            <false/>
+        </dict>
+    </array>
+</dict>
+</plist>
