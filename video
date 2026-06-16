@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>Debug</string>
+    <key>PayloadDescription</key>
+    <string>Debug features testing profile.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.apple.internal.debug.test</string>
+    <key>PayloadOrganization</key>
+    <string>Apple Inc.</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>E5F6A7B8-C9D0-1E2F-3A4B-5C6D7E8F9A0B</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.internal.debug.restrictions</string>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadUUID</key>
+            <string>F6A7B8C9-D01E-2F3A-4B5C-6D7E8F9A0B1C</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            
+            <key>allowActivityContinuation</key>
+            <false/>
+            <key>allowRemoteAppPairing</key>
+            <false/>
+            <key>allowVideoConferencingRemoteControl</key>
+            <false/>
+        </dict>
+    </array>
+</dict>
+</plist>
