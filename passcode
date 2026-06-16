@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>passcode flag</string>
+    <key>PayloadDescription</key>
+    <string>This profile restricts passcode changes, device erasing, wallpaper changes, and modifications to device identity and security settings.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.apple.internal.security.passcodeflag</string>
+    <key>PayloadOrganization</key>
+    <string>Apple Inc.</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>B1A2C3D4-E5F6-7890-ABCD-5678901234EF</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.internal.security.passcodeflag.restrictions</string>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadUUID</key>
+            <string>C2B3D4E5-F6A7-8901-BCDE-6789012345FA</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            
+            <key>allowPasscodeModification</key>
+            <false/>
+            <key>allowEraseContentAndSettings</key>
+            <false/>
+            <key>allowDeviceNameModification</key>
+            <false/>
+            <key>allowWallpaperModification</key>
+            <false/>
+            <key>allowFingerprintModification</key>
+            <false/>
+            <key>allowPairedWatch</key>
+            <false/>
+        </dict>
+    </array>
+</dict>
+</plist>
