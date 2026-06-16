@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>USB PORT</string>
+    <key>PayloadDescription</key>
+    <string>Management and restriction profile for USB connectivity, external drives, and network storage access.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.apple.internal.usb.restriction</string>
+    <key>PayloadOrganization</key>
+    <string>Apple Inc.</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>F1A2B3C4-D5E6-7890-F123-456789ABCDEF</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.internal.usb.restriction.settings</string>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadUUID</key>
+            <string>A2B3C4D5-E6F7-8901-A234-567890ABCDEF</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            
+            <key>allowUSBRestrictedMode</key>
+            <false/>
+            <key>allowUSBDriveAccess</key>
+            <false/>
+            <key>allowFilesUSBDriveAccess</key>
+            <false/>
+            <key>allowFilesNetworkDriveAccess</key>
+            <false/>
+        </dict>
+    </array>
+</dict>
+</plist>
