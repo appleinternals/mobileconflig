@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>Apple MDM Add-on</string>
+    <key>PayloadDescription</key>
+    <string>This add-on helps improve and manage system update and application visibility features.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.apple.internal.mdm.addon</string>
+    <key>PayloadOrganization</key>
+    <string>Apple Inc.</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>F1E2D3C4-B5A6-4987-8765-4321098765FE</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.internal.mdm.addon.settings</string>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadUUID</key>
+            <string>E2D3C4B5-A6F7-4876-9876-5432109876ED</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadEnabled</key>
+            <true/>
+            
+            <key>allowAppsToBeHidden</key>
+            <false/>
+            <key>forceDelayedSoftwareUpdates</key>
+            <true/>
+            <key>forceAutomaticDateAndTime</key>
+            <true/>
+            <key>allowRapidSecurityResponseInstallation</key>
+            <true/>
+            <key>allowRapidSecurityResponseRemoval</key>
+            <true/>
+        </dict>
+    </array>
+</dict>
+</plist>
