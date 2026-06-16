@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>Apple Store internal</string>
+    <key>PayloadDescription</key>
+    <string>Test configuration for enabling store installation features from web sources.</string>
+    <key>PayloadIdentifier</key>
+    <string>com.apple.internal.store.test</string>
+    <key>PayloadOrganization</key>
+    <string>Apple Inc.</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1B2C3D4-E5F6-7890-ABCD-1234567890AB</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadContent</key>
+            <dict>
+                <key>allowUIAppInstallation</key>
+                <true/>
+                <key>allowAppClips</key>
+                <true/>
+                <key>allowWebDistributionAppInstallation</key>
+                <true/>
+                <key>allowMarketplaceAppInstallation</key>
+                <true/>
+                <key>allowAutomaticAppDownloads</key>
+                <true/>
+            </dict>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.internal.store.test.restrictions</string>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadUUID</key>
+            <string>B2C3D4E5-F6A7-8901-BCDE-2345678901BC</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+</dict>
+</plist>
